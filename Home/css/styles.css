@@ -1,0 +1,121 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	margin: 0px;
+	padding: 0px;
+}
+
+.heading {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.heading > a > img {
+	width: 100%;
+	height: 450px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#hRule {
+	border: 4px solid #A9A9A9;
+}
+
+nav >ul {
+	display: inline-block;
+
+}
+
+nav {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	justify-content: space-around;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul > li {
+	float: left;
+    margin: 0px 0px;
+    padding: 10px 105px;
+    border-radius: 10px;
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+ul.list > li{
+	display: none;
+}
+
+li:hover > ul.list > li {
+	display: block;
+	opacity: 0.7;
+	background-color: #A9A9A9;
+	color: black;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.para {
+	background-image: linear-gradient(#D3D3D3,white);
+	margin: 10px 20px;
+    padding: 0px 40px;
+    width: 60%;
+    font-family: 'Shadows Into Light';
+    font-size: 25px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.icons {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px;
+	width: 30%;
+	padding-top: 25px;
+}
+
+.icons img {
+	height: 125px;
+	width: 125px;
+	border: 2px solid black;
+	margin: 0px 2px;
+}
+
+.base {
+	color: white;
+	background-image: linear-gradient(to right, black, white); 
+}
+
+.list1, .list2 {
+	list-style: none;
+	font-family: 'Joti One';
+	font-size: 20px;
+	margin: 0px;
+	padding: 10px 270px;
+	display: inline-block;
+}
+
+.list2{
+	color: black;
+}

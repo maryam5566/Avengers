@@ -1,0 +1,90 @@
+header {
+padding: 0px;
+margin: 0px;
+text-align: center;
+height: 14%;
+width: 100%;
+color: #DAA520;
+background-image: linear-gradient(to right,#FFD700, white);
+}
+
+#heading {
+	font-family: Abril Fatface;
+    font-size: 45px;
+    margin: 0px;
+    padding: 10px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.hrline {
+	margin : 0px;
+	padding:0px;
+	border: 2px solid white;
+}
+
+.container {
+	background-image: url("../pictures/Backgd.jpg");
+	background-size: 100% 100%;
+	margin: 0px;
+	padding: 10px 50px;
+}
+
+#imgLeft {
+	border-radius: 20px;
+}
+
+#subRight{
+	font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+    margin: 100px 10px;
+    color: ivory;
+   font-family: 'Pacifico';
+}
+
+p {
+	margin: 0px;
+	padding: 10px;
+	}
+
+.subHead {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contentU, .contentD {
+	opacity: 0.75;
+	margin: 30px;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-family: Pacifico;
+	font-size: 25px;
+
+}
+
+.contentU {
+    background-image: linear-gradient(#ffa4a4,white);
+}
+
+.contentD {
+	display: flex;
+	justify-content: space-between;
+	background-image: linear-gradient(#FFD700,white);
+}
+
+.footer {
+	display: flex;
+	justify-content: space-around;
+	height: 20%;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	background-image: linear-gradient(to right,#ff2929,#034ff4,white);
+	font-family: Pacifico;
+	font-size: 15px;
+}
